@@ -22,7 +22,7 @@ header{
 }
 
 .nav-section{
-    max-width: 1480px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
     display: flex;
@@ -91,7 +91,7 @@ header{
 }
 
 .hero-section-content{
-    max-width: 1480px;
+    max-width: 1400px;
     height: 100%;
     margin: 0 auto;
     padding: 0 20px;
@@ -189,7 +189,7 @@ header{
 }
 
 .about-section-content{
-    max-width: 1480px;
+    max-width: 1400px;
     height: 100%;
     margin: 0 auto;
     padding: 20px;
@@ -249,7 +249,7 @@ header{
 -------------------- Online Games Section ---------------
 */
 .online-games-section{
-    max-width: 1480px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -333,4 +333,86 @@ header{
 }
 
 
+.games-section{
+    display: flex;
+    margin: 70px 0 0;
+    gap: 20px;
+}
 
+.games-section-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.games-section-content div{
+    max-width: 280px;
+    text-align: end;
+}
+
+.games-section-content div h2{
+    font-size: 2.4rem;
+    color: var(--text-bold);
+    line-height: 1.5;
+}
+
+.games-section-content div h2 span{
+    color: var(--primary-color);
+}
+
+.games-section-content div p{
+    margin: 20px 0;
+    line-height: 1.5;
+    color: var(--small-color);
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.games-section-img{
+    width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.games-section-img .first-img{
+    width: calc(100% - 20%);
+    height: calc(100% - 20%);
+    margin-left: 15%;
+    margin-bottom: 15%;
+}
+
+.games-section-img .last-img{
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    bottom:5%;
+}
+
+.games-section-img div img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.games-section-img-2{
+    justify-content: start;
+}
+
+.games-section-img-2 .first-img{
+    margin-left: 0;
+    margin-right: 15%;
+}
+
+.games-section-img-2 .last-img{
+    left: auto;
+    right: 5%;
+}
+
+
+.games-section-content-2 div{
+    max-width: 350px;
+    text-align: start;
+}
