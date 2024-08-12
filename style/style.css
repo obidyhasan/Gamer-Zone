@@ -242,7 +242,7 @@ header{
 
 .about-content span h3{
     color: var(--small-color);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 /* 
@@ -313,12 +313,9 @@ header{
     left: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.games-img div{
-    display: flex;
+    justify-content: center;    
     flex-direction: column;
+    visibility: hidden;
 }
 
 .games-img div img{
@@ -332,6 +329,9 @@ header{
     margin-top: 10px;
 }
 
+.online-games-item:hover .games-img div{
+    visibility: visible;
+}
 
 .games-section{
     display: flex;
@@ -415,4 +415,71 @@ header{
 .games-section-content-2 div{
     max-width: 350px;
     text-align: start;
+}
+
+.careers-section{
+    width: 100%;
+    background-color: #FF42A5;
+    display: flex;
+}
+
+.careers-img,
+.careers-container{
+    width: 50%;
+}
+
+.careers-container{
+    display: flex;
+    justify-content: end;
+}
+
+.careers-img .img-div{
+    width: 100%;
+    height: 100%;
+}
+
+.careers-img .img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.careers-content{
+    max-width: 700px;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.careers-content h2{
+    font-size: 2rem;
+    color: white;
+}
+
+.careers-content p{
+    margin: 20px 0;
+    color: rgba(255, 255, 255, 0.921);
+    line-height: 1.5;
+    font-size: .9rem;
+}
+
+.list-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item li{
+    margin-bottom: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.careers-content .button{
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: white;
+    color: var(--primary-color);
 }
