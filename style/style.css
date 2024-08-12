@@ -13,6 +13,7 @@
     --primary-color: #FF42A5;
     --secondary-color:rgb(78, 197, 247);
     --small-color: rgb(83, 76, 100);
+    --text-bold: #0B0223;
 }
 
 header{
@@ -243,3 +244,93 @@ header{
     color: var(--small-color);
     font-size: 1.5rem;
 }
+
+/* 
+-------------------- Online Games Section ---------------
+*/
+.online-games-section{
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.online-games-content{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.online-games-content h2{
+    font-size: 2rem;
+    color: var(--text-bold);
+}
+
+.online-games-content h2 span{
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-games-content p{
+    font-size: .8rem;
+    margin-top: 10px;
+    font-weight: 500;
+    color: var(--small-color);
+}
+
+.online-games-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.online-games-item p{
+    margin-top: 10px;
+    font-size: .9rem;
+    font-weight: 500;
+    color: var(--small-color);
+    line-height: 1.4;
+}
+
+.games-img{
+    width: 100%;
+    position: relative;
+}
+
+.games-img img{
+    width: 100%;
+}
+
+.games-img div{
+    width: calc(100% - 4px);
+    height: calc(100% - 8px);
+    margin: 2px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.600);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.games-img div{
+    display: flex;
+    flex-direction: column;
+}
+
+.games-img div img{
+    width: 27px;
+    height: 27px;
+    filter: brightness(0) invert(1);
+}
+
+.games-img div p{
+    color: var(--primary-color);
+    margin-top: 10px;
+}
+
+
+
