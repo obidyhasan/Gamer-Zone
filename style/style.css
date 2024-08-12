@@ -17,6 +17,9 @@
 }
 
 header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     background: rgb(255, 255, 255);
 }
@@ -536,4 +539,57 @@ header{
 
 .category-item .img-div img{
     width: 100%;
+}
+
+
+/* 
+--------------------- Footer section ---------------------
+*/
+.footer-section{
+    background: rgb(11, 2, 35);
+}
+
+.footer-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer-container .brand{
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-container ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    gap: 30px;
+    margin: 40px 0;
+    font-size: 1.2rem;
+}
+
+.footer-icons{
+    gap: 20px;
+}
+
+.footer-icons li i{
+    font-size: 2.2rem;
+}
+
+.footer-useful-link{
+    gap: 40px;
+    margin: 40px 0 25px;
+}
+
+.footer-useful-link,
+.footer-container p{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: .9rem;
 }
